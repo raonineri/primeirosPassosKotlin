@@ -3,7 +3,7 @@ package selection
 fun main(){
     val temp = 25
 
-    if(temp > 22)
+    if(temp > 30)
     {
         println("Está calor!")
     }
