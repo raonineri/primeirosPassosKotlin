@@ -11,9 +11,9 @@ fun main(){
     }
     catch (ex: InsuficienteFundsException){
         println("Error! Current balance is ${ex.currentBalance}")
+    }finally {
+        println(account.balance)
     }
-
-    println(account.balance)
 }
 
 class BankAccount{
